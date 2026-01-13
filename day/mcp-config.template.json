@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "asana": {
+      "command": "REPLACE_WITH_ASANA_SERVER_COMMAND",
+      "args": ["REPLACE_WITH_ASANA_SERVER_ARG"],
+      "env": {
+        "ASANA_TOKEN": "REPLACE_WITH_ASANA_TOKEN"
+      }
+    },
+    "notion": {
+      "command": "REPLACE_WITH_NOTION_SERVER_COMMAND",
+      "args": ["REPLACE_WITH_NOTION_SERVER_ARG"],
+      "env": {
+        "NOTION_TOKEN": "REPLACE_WITH_NOTION_TOKEN"
+      }
+    },
+    "google-calendar": {
+      "command": "REPLACE_WITH_GCAL_SERVER_COMMAND",
+      "args": ["REPLACE_WITH_GCAL_SERVER_ARG"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "REPLACE_WITH_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET": "REPLACE_WITH_CLIENT_SECRET",
+        "GOOGLE_REFRESH_TOKEN": "REPLACE_WITH_REFRESH_TOKEN",
+        "GOOGLE_CALENDAR_ID": "primary"
+      }
+    }
+  }
+}
