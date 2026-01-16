@@ -1,3 +1,4 @@
 day/.env
 day/mcp-config.json
+day/mcp-config.local.json
 day/daily-*.md
